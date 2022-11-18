@@ -49,8 +49,9 @@ Although there is a cleaned version of the data, I have usined the unclened vers
 - Deep learning model development and evaluation in [Neural_Network_Flight_Fare_Kasun_Malwenna.ipynb](Neural_Network_Flight_Fare_Kasun_Malwenna.ipynb) Notebook.
 - ML learning model development, evaluation and final model selection documented in [Modeling_Flight_Fare_Kasun_Malwenna.ipynb](Modeling_Flight_Fare_Kasun_Malwenna.ipynb) Notebook.
 
-*Note :  Plotly graphs Not rendering.
-Github performs a static render of the notebooks and it doesn't include the embedded HTML/JavaScript that makes up a plotly graph. Paste the link to GitHub notebook into [nbviewer](http://nbviewer.jupyter.org/), to present a rich view of the notebook.*
+*Note :  Plotly graphs Not rendering.*
+
+*Github performs a static render of the notebooks and it doesn't include the embedded HTML/JavaScript that makes up a plotly graph. Paste the link to GitHub notebook into [nbviewer](http://nbviewer.jupyter.org/), to present a rich view of the notebook.*
 
 
 ## Conclusion and insights
