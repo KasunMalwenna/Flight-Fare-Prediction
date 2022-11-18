@@ -3,6 +3,27 @@
 ## Overview
 This repository contains the capstone project undertaken at [BrainStation](https://brainstation.io/) Data Science Bootcamp. The deployment phase as a web apllication be accessed at [Flight-Fare-Prediction-Web-App](https://github.com/KasunMalwenna/Flight-Fare-Prediction-Web-App.git) repository.
 
+## Directory Tree 
+```
+├── Data 
+│   ├── Cleaned data
+│   │   ├── Cleaned_flight_fare.csv # Cleaned data file
+│   │   ├── test_data.csv
+│   │   ├── train_data.csv
+│   ├── Uncleaned data
+│   │   ├── business.csv
+│   │   ├── economy.csv
+├── templates
+│   ├── home.html
+├── Data_Wrangling_and_EDA__Kasun_Malwenna.ipynb
+├── Modeling_Flight_Fare_Kasun_Malwenna.ipynb
+├── Neural_Network_Flight_Fare_Kasun_Malwenna.ipynb
+├── NN_model_3.pkl
+├── RanForest_tuned_gridSearch_model_Best.pkl
+├── environment.yml
+├── README.md
+```
+
 ## Problem Statement
 Fueled by inflation and due to limitations caused by the recent pandemic air ticket prices have skyrocketed over the last couple of years, rendering many airlines unprofitable and insolvent. This in turn has resulted in major travel disruptions while causing 2.3 million job depreciation.
 
