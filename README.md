@@ -19,7 +19,7 @@ This repository contains the capstone project undertaken at [BrainStation](https
 ├── NN_model_3.pkl                                     # Trained Neural Network model file
 ├── RanForest_tuned_gridSearch_model_Best.pkl          # Trained Best model file (Random Forest)
 ├── environment.yml                                    # environment dependencies to recreate the environment
-├── README.md                                          # Summry of the repository
+├── README.md                                          # Summary of the repository
 ```
 
 ## Problem Statement
