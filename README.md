@@ -24,8 +24,9 @@ Internal factors include
 - purchase and departure dates,
 - the number of available airlines and flights,
 - fare class,
-- the current market demand, and
-- flight distance.
+- the current market demand
+- flight distance
+-
 External factors embrace events going on in the arrival or departure cities — like
 
 - holidays,
@@ -35,6 +36,7 @@ External factors embrace events going on in the arrival or departure cities — 
 - Terrorist attacks,
 - natural disasters,
 - epidemic outbursts
+-
 Though it’s impossible to cover every external eventuality — say, nothing foreshadowed the 2020 coronavirus pandemic in the middle of 2019 — we still can predict quite a lot, using the right data and advanced machine learning (ML) models.
 
 ## Data
