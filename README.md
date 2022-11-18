@@ -7,13 +7,13 @@ This repository contains the capstone project undertaken at [BrainStation](https
 ```
 ├── Data 
 │   ├── Cleaned data
-│   │   ├── Cleaned_flight_fare.csv                    # Clean and preproccessed dataset before split
+│   │   ├── Cleaned_flight_fare.csv                    # Clean and preproccessed dataset before train test split
 │   │   ├── test_data.csv                              # test data after splitting 
 │   │   ├── train_data.csv                             # train data after splitting
 │   ├── Uncleaned data
 │   │   ├── business.csv                               # Original dataset on business class 
 │   │   ├── economy.csv                                # Original dataset on economy class travel
-├── Data_Wrangling_and_EDA__Kasun_Malwenna.ipynb       # Data clening notebook
+├── Data_Wrangling_and_EDA__Kasun_Malwenna.ipynb       # Data cleaning notebook
 ├── Modeling_Flight_Fare_Kasun_Malwenna.ipynb          # ML models and evaluation notbook
 ├── Neural_Network_Flight_Fare_Kasun_Malwenna.ipynb    # DL model and evaluation notebook
 ├── NN_model_3.pkl                                     # Trained Neural Network model file
