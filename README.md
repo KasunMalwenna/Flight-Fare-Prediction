@@ -13,7 +13,7 @@ Air ticket price has been erratic even before the pandemic as it is the most exp
 
 Developing robust algorithms have several potential applications within the aviation industry from determining ticket prices to personalized selling, crew management and fuel and route optimization. However, the scope of this project focuses on the portrayal of relationships from an abundance of historical data available to develop a predictive model which can forecast the ticket price within 10% of its true value. 
 
-## use cases and challenges
+## Use cases and challenges
 There are two main use cases of flight price prediction in the travel industry. OTAs (Online travel agencies) and other travel platforms integrate this feature to attract more visitors looking for the best rates. Airlines employ the technology to forecast rates of competitors and adjust their pricing strategies accordingly.
 A third use case, a passenger-side predictor suggests the best time to buy a ticket so that travelers can make informed decisions. Carriers, on their end, try to find out the optimal price they should set to maximize revenue while remaining competitive.
 
@@ -26,7 +26,7 @@ Internal factors include
 - fare class,
 - the current market demand
 - flight distance
--
+
 External factors embrace events going on in the arrival or departure cities — like
 
 - holidays,
@@ -36,7 +36,7 @@ External factors embrace events going on in the arrival or departure cities — 
 - Terrorist attacks,
 - natural disasters,
 - epidemic outbursts
--
+
 Though it’s impossible to cover every external eventuality — say, nothing foreshadowed the 2020 coronavirus pandemic in the middle of 2019 — we still can predict quite a lot, using the right data and advanced machine learning (ML) models.
 
 ## Data
@@ -46,5 +46,26 @@ Although there is a cleaned version of the data, I have usined the unclened vers
 
 ## Methodology
 - The cleaning and preprocessing steps are detailed in [Data_Wrangling_and_EDA__Kasun_Malwenna.ipynb](Data_Wrangling_and_EDA__Kasun_Malwenna.ipynb) Notebook.
-- Deep learning model development and evaluation is detailed in [Neural_Network_Flight_Fare_Kasun_Malwenna.ipynb](Neural_Network_Flight_Fare_Kasun_Malwenna.ipynb) Notebook
-- ML learning model development, evaluation and final model selection is documented in [Modeling_Flight_Fare_Kasun_Malwenna.ipynb](Modeling_Flight_Fare_Kasun_Malwenna.ipynb) Notebook
+- Deep learning model development and evaluation in [Neural_Network_Flight_Fare_Kasun_Malwenna.ipynb](Neural_Network_Flight_Fare_Kasun_Malwenna.ipynb) Notebook.
+- ML learning model development, evaluation and final model selection documented in [Modeling_Flight_Fare_Kasun_Malwenna.ipynb](Modeling_Flight_Fare_Kasun_Malwenna.ipynb) Notebook.
+
+
+## Conclusion and insights
+- Based on all analysis and modelling, we surpassed our initial expectations by developing two models that predict air ticket prices within 10% of their true value.
+- Best performing Random Forest model can predict the price with an average of 96% accuracy.
+- “Air India” and “Vistara” are the key performers in the domestic aviation industry in India provide, therefore other airlines can revise their pricing strategies to offer better rates than “Air India” and “Vistara”.
+- Passengers can expect cheaper and calmer travel during late nights.
+- Flight prices increase with added duration; passengers should avoid stopover flights to get the best rates.
+
+## Web app
+The web app was developed using Flash web framework in python and can be run by cloning [Flight-Fare-Prediction-Web-App](https://github.com/KasunMalwenna/Flight-Fare-Prediction-Web-App.git) repository,
+App in its current state can be used by passengers to make more informed travel decisions. The figure below shows the app running locally. It uses the best model and is capable of real-time feedback.
+
+
+![](https://i.imgur.com/HroclkL.jpg)
+
+
+## What’s Next?
+- reduce the model error further increasing the predictive accuracy. This can be achieved by introducing more observation as well as extra features such as ancillary charges, meal options, infotainment systems offered etc. and retraining and tuning the model.
+- Currently, the model is only predicting domestic rates, Model can be trained to predict at a global scale by introducing and training on international flight data.
+- Optimize Flask app and Front-End development.
