@@ -7,21 +7,19 @@ This repository contains the capstone project undertaken at [BrainStation](https
 ```
 ├── Data 
 │   ├── Cleaned data
-│   │   ├── Cleaned_flight_fare.csv # Cleaned data file
-│   │   ├── test_data.csv
-│   │   ├── train_data.csv
+│   │   ├── Cleaned_flight_fare.csv                    # Clean and preproccessed dataset before split
+│   │   ├── test_data.csv                              # test data after splitting 
+│   │   ├── train_data.csv                             # train data after splitting
 │   ├── Uncleaned data
-│   │   ├── business.csv
-│   │   ├── economy.csv
-├── templates
-│   ├── home.html
-├── Data_Wrangling_and_EDA__Kasun_Malwenna.ipynb
-├── Modeling_Flight_Fare_Kasun_Malwenna.ipynb
-├── Neural_Network_Flight_Fare_Kasun_Malwenna.ipynb
-├── NN_model_3.pkl
-├── RanForest_tuned_gridSearch_model_Best.pkl
-├── environment.yml
-├── README.md
+│   │   ├── business.csv                               # Original dataset on business class 
+│   │   ├── economy.csv                                # Original dataset on economy class travel
+├── Data_Wrangling_and_EDA__Kasun_Malwenna.ipynb       # Data clening notebook
+├── Modeling_Flight_Fare_Kasun_Malwenna.ipynb          # ML models and evaluation notbook
+├── Neural_Network_Flight_Fare_Kasun_Malwenna.ipynb    # DL model and evaluation notebook
+├── NN_model_3.pkl                                     # Trained Neural Network model file
+├── RanForest_tuned_gridSearch_model_Best.pkl          # Trained Best model file (Random Forest)
+├── environment.yml                                    # environment dependencies to recreate the environment
+├── README.md                                          # Summry of the repository
 ```
 
 ## Problem Statement
